@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hero-section {
+  background-image: url("../assets/images/background-image_1.jpg");
+  background-size: cover;
+  color: white;
+  font-family: "Nunito Sans", Verdana, sans-serif;
+  padding: 8% 0;
+}
+
+.hero-title {
+  padding: 0 33%;
+  font-size: 16px
+}
+
+.hero-title p {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.hero-title h1 {
+  font-size: 8em;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: -9px;
+}
+
+.hero-title h2 {
+  font-size: 4.5em;
+  font-weight: 300;
+  line-height: 0.6;
+}
+
+.hero-text {
+  padding-left: 120px;
+  padding-top: 8%;
+  font-size: 16px
+}
+
+.hero-text p {
+  font-size: 1.8em;
+  font-weight: 300;
+  position: relative;
+  width: 43%;
+  line-height: 1.1;
+}
+
+.hero-text p::before {
+  content: "";
+  height: 3px;
+  width: 180px;
+  position: absolute;
+  background: white;
+  top: -15px;
+}
+
+.hero-text .icons {
+  font-size: 1.5em;
+  padding-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-title, .hero-text {
+    font-size: 13px;
+  }
+
+  .hero-text {
+    padding-left: 100px;
+    margin-top: 50px;
+  }
+  
+  .hero-text p {
+    width: 45%;
+  }
+
+  .hero-text p::before {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hero-title, .hero-text {
+    font-size: 10px;
+  }
+
+  .hero-section h1 {
+    margin-left: -5px;
+  }
+
+  .hero-text {
+    padding-left: 70px;
+    margin-top: 50px;
+  }
+
+  .hero-text p {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section {
+    height: 100vh;
+  }
+  .hero-title {
+    margin-top: 33%;
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(49,59,49);
+  }
+
+  .hero-text {
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(49,59,49);
+  }
+  .hero-text p {
+    width: 87%;
+  }
+
+  .hero-text p::before {
+    width: 140px;
+    background-color: rgb(49,59,49);
+  }
+  .hero-text .icons {
+    font-size: 1rem;
+    padding-top: 15px;
+    display: flex;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero-title h1 {
+    font-size: 6em;
+    margin-left: -3px;
+    margin-bottom: 20px;
+  }
+}
