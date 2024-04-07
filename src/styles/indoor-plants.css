@@ -6,7 +6,7 @@
 }
 
 .indoor-plants {
-  background-image: url("../assets/images/background-image_5.jpg");
+  background-image: url("/background-image_5.jpg");
   background-size: cover;
   background-position: right;
   width: 100vw;

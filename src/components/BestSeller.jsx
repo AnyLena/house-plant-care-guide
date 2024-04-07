@@ -1,6 +1,6 @@
-import plantLeft from "../assets/images/plant_9.jpg";
-import plantMiddle from "../assets/images/plant_10.jpg";
-import plantRight from "../assets/images/plant_11.jpg";
+import plantLeft from "/plant_9.jpg";
+import plantMiddle from "/plant_10.jpg";
+import plantRight from "/plant_11.jpg";
 import "../styles/best-seller.css";
 
 const BestSeller = () => {

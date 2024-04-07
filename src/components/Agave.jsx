@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/agave.css";
 import "../index.css";
-import backgroundImage from "../assets/images/background-image_3.jpg";
+import backgroundImage from "/background-image_3.jpg";
 import { IoIosSunny, IoIosCloudy } from "react-icons/io";
 import { GiWaterDrop } from "react-icons/gi";
 

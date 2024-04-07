@@ -14,7 +14,7 @@
   padding-inline: 7rem;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../assets/images/background-image_2.jpg");
+  background-image: url("/background-image_2.jpg");
   
   @media screen and (max-width: 1024px) {
     justify-content: center;

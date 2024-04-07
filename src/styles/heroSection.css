@@ -6,7 +6,7 @@
 }
 
 .hero-section {
-  background-image: url("../assets/images/background-image_1.jpg");
+  background-image: url("/background-image_1.jpg");
   background-size: cover;
   color: white;
   font-family: "Nunito Sans", Verdana, sans-serif;

@@ -6,7 +6,7 @@
 }
 
 .healthy-happy {
-  background-image: url("../assets/images/background-image_6.jpg");
+  background-image: url("/background-image_6.jpg");
   background-size: cover;
   background-position: right;
   width: 100vw;
