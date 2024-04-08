@@ -1,19 +1,18 @@
---PSD to React Template Conversion
+# PSD to React Template Conversion
 This project was undertaken as part of the WBS Coding School bootcamp. The primary task was to convert a PSD template into a functional React application.
-
-- Project Description
+## Project Description
 The goal of this project was to develop a deeper understanding of React and its components, as well as to practice converting static designs into dynamic web applications. The PSD template served as a blueprint for the final application's design and layout.
 
-- Technologies Used
-React.js
-CSS
-HTML
+## Technologies Used
+- React.js
+- CSS
+- HTML
 
-- Features
+## Features
 
-Fully responsive design
-Dynamic rendering of components
-Clean and modular code
+- Fully responsive design
+- Dynamic rendering of components
+- Clean and modular code
 
-- Acknowledgements
+## Acknowledgements
 This project was part of the curriculum for the WBS Coding School bootcamp.
